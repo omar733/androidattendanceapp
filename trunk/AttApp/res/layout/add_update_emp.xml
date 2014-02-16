@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<LinearLayout
+                    android:id="@+id/ews_settings_form"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <EditText
+                        android:id="@+id/emp_fname"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:ems="10"
+                        android:hint="First Name"
+                        android:paddingLeft="5dp"
+                        android:textColor="#FFFFFF"
+                        android:inputType="textEmailAddress" 
+                        android:singleLine="true">
+                    </EditText>
+                    
+                    <EditText
+                        android:id="@+id/emp_lname"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:ems="10"
+                        android:hint="Last Name"
+                        android:paddingLeft="5dp"
+                        android:textColor="#FFFFFF"
+                        android:inputType="textEmailAddress" 
+                        android:singleLine="true">
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/emp_desig"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:ems="10"
+                        android:hint="Designation"
+                        android:paddingLeft="5dp"
+                        android:textColor="#FFFFFF" 
+                        android:singleLine="true">
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/emp_doj"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:ems="10"
+                        android:hint="DOJ"
+                        android:paddingLeft="5dp"
+                        android:textColor="#FFFFFF"
+                        android:singleLine="true" >
+                    </EditText>
+
+
+
+                    <Button
+                        android:id="@+id/emp_settings_form_submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/button"
+                        android:hint="SAVE"
+                        android:paddingLeft="5dp" />
+                </LinearLayout>
+</LinearLayout>
