@@ -32,7 +32,7 @@ public class AttAppMainActivity extends BaseActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         //Used to put dark icons on light action bar
-        boolean isLight = false;
+        boolean isLight = true;
 
         menu.add("Settings")
             .setIcon(isLight ? R.drawable.ic_compose_inverse : R.drawable.ic_compose)
